@@ -1,11 +1,13 @@
 
 public class Board {
-	private int [] playBoard = new int [40];
-	private int [][] homePosition = new int [4][4];
-	private int [][] startPosition = new int [4][4];
-	
+	private int [] playBoard;
+	private int [][] homePosition;
+	private int [][] startPosition; 	
+
 	public Board() {
-		
+		this.playBoard = new int[40];
+		this.homePosition = new int [4][4];
+		this.startPosition = new int[4][4];
 	}
 	
 	
